@@ -16,7 +16,7 @@ model = torch.hub.load(
     pretrained=True,
 )
 
-img_move_path = r"./people"
+img_move_path = r"./person"
 
 for img_path in img_list:
     results = model(img_path)
